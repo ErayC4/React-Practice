@@ -14,7 +14,7 @@ function App() {
     <div className="pl-16 pt-8">
       <p className="text-4xl">Text Hider</p>
       <p className={textClassName}>This is some text</p>
-      <button className="bg-yellow-300 px-12" onClick={toggleIsShown}>
+      <button className="bg-yellow-300 px-8" onClick={toggleIsShown}>
         {isShown ? "Hide" : "Show"}
       </button>
     </div>
